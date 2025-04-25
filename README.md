@@ -1,7 +1,7 @@
 # netsim-dijkstra-simulator
 Simulador de rede OSPF com Cisco Packet Tracer. Observa convergência de rotas em tempo real usando o algoritmo de Dijkstra.
 
-# NETSIM - Simulador OSPF com Cisco Packet Tracer
+# NETSIM - Simulador Dijkstra com Cisco Packet Tracer
 
 # 📌 Sobre o Projeto
 
