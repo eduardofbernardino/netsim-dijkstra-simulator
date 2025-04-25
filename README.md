@@ -54,3 +54,22 @@ netsim_ospf_project/
 │   └── graficos_convergencia.png
 │
 └── README.md
+
+# 🚀 Funcionalidades
+
+- Criação de topologia com múltiplos roteadores.
+- Aplicação do protocolo OSPF.
+- Simulação de falhas e observação de convergência.
+- Modo passo a passo para estudo do algoritmo SPF.
+- Geração de documentação visual para análise dos resultados.
+
+# 📊 Resultados Esperados
+
+- Compreensão prática do funcionamento do OSPF.
+- Visualização da convergência em tempo real.
+- Aplicação de conceitos teóricos em ambiente simulado.
+- Relatórios técnicos com tabelas e gráficos da simulação.
+
+# 📜 Licença
+
+Este projeto é acadêmico e livre para fins educacionais.
