@@ -1,0 +1,33 @@
+# Comparativo de Convergência para o destino 192.168.30.30
+
+## 🟢 Antes da Falha
+
+- O destino `192.168.30.0/24` estava sendo alcançado via:
+  - **Rota OSPF**: `[110/65] via 10.1.1.6, Serial0/1/1`
+
+📌 Interpretação:
+- O tráfego destinado ao IP `192.168.30.30` seguia preferencialmente pelo link Serial0/1/1, passando pelo próximo salto `10.1.1.6`.
+
+## 🔴 Após a Falha no Link Serial0/1/1
+
+- A nova rota registrada foi:
+  - Rota OSPF: `[110/129] via 10.1.1.2, Serial0/1/0`
+
+📌 Interpretação:
+- O protocolo recalculou a árvore de menor custo e identificou uma rota alternativa passando por 10.1.1.2 (Serial0/1/0).
+- O custo aumentou de `65` para `129`, indicando um caminho menos eficiente, mas ainda funcional.
+- O tempo de convergência foi de apenas **31 segundos**, conforme mostrado no tempo de atualização da rota.
+
+## 📊 Comparativo Resumido
+
+| Parâmetro                 | Antes da Falha             | Após a Falha                |
+|--------------------------|----------------------------|-----------------------------|
+| Próximo salto            | 10.1.1.6                   | 10.1.1.2                    |
+| Interface de saída       | Serial0/1/1                | Serial0/1/0                 |
+| Custo OSPF               | 65                         | 129                         |
+| Tempo desde a atualização| 5 minutos e 26 segundos    | 31 segundos                 |
+| Disponibilidade          | Ativa                      | Ativa (rota alternativa)    |
+
+## ✅ Conclusão
+
+Mesmo com a interrupção do link principal (`Serial0/1/1`), o algoritmo foi capaz de garantir a continuidade do roteamento para 192.168.30.30, com base em uma nova árvore de caminhos calculada com o pelo Dijkstra. Essa resposta rápida comprova a eficiência e resiliência do protocolo em redes críticas.
