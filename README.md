@@ -15,26 +15,6 @@ Algoritmo de Dijkstra (SPF)
 
 🗂️ Estrutura do Projeto
 
-📦 netsim-dijkstra-simulator
-├── 📁 topologia
-│   ├── redes_visuais
-│   │   ├── topologia_inicial.png
-│   │   └── topologia_com_falha.png
-│   └── packet_tracer
-│       └── netsim_final.pkt
-├── 📁 configuracoes
-│   ├── roteador_A.txt
-│   ├── roteador_B.txt
-│   └── roteador_C.txt
-├── 📁 resultados
-│   ├── tabelas_roteamento_iniciais.txt
-│   ├── tabelas_roteamento_pos_falha.txt
-│   └── comparativo_convergencia.txt
-├── 📁 apresentacao
-│   ├── slides_apresentacao.pdf
-│   └── graficos_convergencia.png
-└── README.md
-
 ![image](https://github.com/user-attachments/assets/8e61b166-ee6b-45ee-ac34-e1906917619d)
 
 
