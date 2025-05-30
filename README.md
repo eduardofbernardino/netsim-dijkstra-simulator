@@ -41,11 +41,15 @@ Topologia com Falha
 Gráfico de Convergência
 
 👥 Equipe
+
 Eduardo Ferreira Bernardino	38505410
+
 Paulo Roberto Alves Genuíno	42331617
+
 Thiago Ventura Silva	38261189
 
 🧠 Disciplinas Envolvidas
+
 Redes de Computadores
 
 Teoria dos Grafos
@@ -53,6 +57,7 @@ Teoria dos Grafos
 Protocolos de Roteamento
 
 🏫 Informações Acadêmicas
+
 Universidade: Universidade Braz Cubas
 
 Curso: Ciência da Computação
@@ -70,4 +75,5 @@ Local: Laboratório 12
 Datas: 05 e 06 de junho de 2025
 
 📄 Licença
+
 MIT License — sinta-se à vontade para utilizar, estudar e adaptar este projeto.
