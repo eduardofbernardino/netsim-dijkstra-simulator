@@ -1,7 +1,9 @@
 🚀 NETSIM – Simulador Dijkstra com Cisco Packet Tracer
+
 Resumo: O NETSIM é um simulador acadêmico que demonstra, de forma prática e visual, o funcionamento do protocolo OSPF em redes Cisco. Utilizando o Cisco Packet Tracer e o algoritmo de Dijkstra, o sistema permite analisar o comportamento de redes diante de falhas e a convergência de rotas em tempo real.
 
 🎯 Objetivo
+
 O objetivo do NETSIM é proporcionar uma compreensão prática dos conceitos de roteamento dinâmico com OSPF, destacando a aplicação do algoritmo de Dijkstra na recalculação de rotas. O projeto simula cenários com falhas de links e observa a convergência automática das rotas, sendo uma ferramenta didática para disciplinas de redes de computadores e teoria dos grafos.
 
 👨‍💻 Tecnologias Utilizadas
