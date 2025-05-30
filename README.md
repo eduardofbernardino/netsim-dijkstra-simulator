@@ -34,6 +34,7 @@ Algoritmo de Dijkstra (SPF)
 │   ├── slides_apresentacao.pdf
 │   └── graficos_convergencia.png
 └── README.md
+
 ⚙️ Como Executar
 ✅ Rodando Localmente
 Abra o arquivo netsim_final.pkt no Cisco Packet Tracer 8.2+.
@@ -52,9 +53,9 @@ Topologia com Falha
 Gráfico de Convergência
 
 👥 Equipe
-Eduardo Ferreira Bernardino	N/A
-Paulo Roberto Alves Genuíno	N/A
-Thiago Ventura Silva	N/A
+Eduardo Ferreira Bernardino	38505410
+Paulo Roberto Alves Genuíno	42331617
+Thiago Ventura Silva	38261189
 
 🧠 Disciplinas Envolvidas
 Redes de Computadores
