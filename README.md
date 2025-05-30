@@ -1,75 +1,84 @@
-# netsim-dijkstra-simulator
-Simulador de rede OSPF com Cisco Packet Tracer. Observa convergência de rotas em tempo real usando o algoritmo de Dijkstra.
+🚀 NETSIM – Simulador Dijkstra com Cisco Packet Tracer
+Resumo: O NETSIM é um simulador acadêmico que demonstra, de forma prática e visual, o funcionamento do protocolo OSPF em redes Cisco. Utilizando o Cisco Packet Tracer e o algoritmo de Dijkstra, o sistema permite analisar o comportamento de redes diante de falhas e a convergência de rotas em tempo real.
 
-# NETSIM - Simulador Dijkstra com Cisco Packet Tracer
+🎯 Objetivo
+O objetivo do NETSIM é proporcionar uma compreensão prática dos conceitos de roteamento dinâmico com OSPF, destacando a aplicação do algoritmo de Dijkstra na recalculação de rotas. O projeto simula cenários com falhas de links e observa a convergência automática das rotas, sendo uma ferramenta didática para disciplinas de redes de computadores e teoria dos grafos.
 
-# 📌 Sobre o Projeto
+👨‍💻 Tecnologias Utilizadas
+Cisco Packet Tracer 8.2+
 
-O **NETSIM** é um projeto acadêmico voltado à simulação de redes de computadores utilizando o protocolo **OSPF (Open Shortest Path First)**, configurado em roteadores Cisco através da linguagem CLI do IOS. A simulação é feita no **Cisco Packet Tracer**, com foco na análise da **convergência de rotas** diante de falhas de links ou nós, utilizando o **algoritmo de Dijkstra (SPF)**.
+Cisco IOS CLI
 
-# 🎯 Objetivo
+Protocolo OSPF v2
 
-Demonstrar, de forma visual e técnica, o comportamento dinâmico de uma rede configurada com OSPF, incluindo:
-- Criação da topologia.
-- Simulação de falhas.
-- Observação da recalculação automática de rotas.
-- Coleta de tabelas de roteamento antes e depois das falhas.
+Algoritmo de Dijkstra (SPF)
 
-# 🔧 Tecnologias Utilizadas
+🗂️ Estrutura do Projeto
 
-- **Cisco Packet Tracer 8.2+**  
-- **Cisco IOS CLI** (Command Line Interface)  
-- **Protocolo OSPF v2**  
-- **Algoritmo de Dijkstra (SPF)**
-
-# 👥 Equipe
-
-- **Eduardo Ferreira Bernardino** – Gerente de Projeto  
-- **Paulo Roberto Alves Genuíno** – Configurador de Rede (Backend)  
-- **Thiago Ventura Silva** – Analista de Visualização (Frontend)  
-
-# 📁 Estrutura do Projeto
-
-```bash
-netsim_ospf_project/
-│── topologia/
-│   ├── redes_visuais/
-│   │   └── topologia_inicial.png
+📦 netsim-dijkstra-simulator
+├── 📁 topologia
+│   ├── redes_visuais
+│   │   ├── topologia_inicial.png
 │   │   └── topologia_com_falha.png
-│   └── packet_tracer/
+│   └── packet_tracer
 │       └── netsim_final.pkt
-│
-│── configuracoes/
+├── 📁 configuracoes
 │   ├── roteador_A.txt
 │   ├── roteador_B.txt
 │   └── roteador_C.txt
-│
-│── resultados/
+├── 📁 resultados
 │   ├── tabelas_roteamento_iniciais.txt
 │   ├── tabelas_roteamento_pos_falha.txt
 │   └── comparativo_convergencia.txt
-│
-│── apresentacao/
+├── 📁 apresentacao
 │   ├── slides_apresentacao.pdf
 │   └── graficos_convergencia.png
-│
 └── README.md
+⚙️ Como Executar
+✅ Rodando Localmente
+Abra o arquivo netsim_final.pkt no Cisco Packet Tracer 8.2+.
 
-# 🚀 Funcionalidades
+Acesse cada roteador pela interface CLI e carregue as configurações correspondentes dos arquivos em configuracoes/.
 
-- Criação de topologia com múltiplos roteadores.
-- Aplicação do protocolo OSPF.
-- Simulação de falhas e observação de convergência.
-- Modo passo a passo para estudo do algoritmo SPF.
-- Geração de documentação visual para análise dos resultados.
+Simule falhas manualmente desconectando links na topologia.
 
-# 📊 Resultados Esperados
+Observe a convergência OSPF e consulte as tabelas de roteamento para análise dos resultados.
 
-- Compreensão prática do funcionamento do OSPF.
-- Visualização da convergência em tempo real.
-- Aplicação de conceitos teóricos em ambiente simulado.
-- Relatórios técnicos com tabelas e gráficos da simulação.
+📸 Demonstrações
+Topologia Inicial
 
-# 📜 Licença
+Topologia com Falha
 
-Este projeto é acadêmico e livre para fins educacionais.
+Gráfico de Convergência
+
+👥 Equipe
+Eduardo Ferreira Bernardino	N/A
+Paulo Roberto Alves Genuíno	N/A
+Thiago Ventura Silva	N/A
+
+🧠 Disciplinas Envolvidas
+Redes de Computadores
+
+Teoria dos Grafos
+
+Protocolos de Roteamento
+
+🏫 Informações Acadêmicas
+Universidade: Universidade Braz Cubas
+
+Curso: Ciência da Computação
+
+Semestre: 5º
+
+Período: Noite
+
+Professora orientadora: Dra. Andréa Ono Sakai
+
+Evento: Mostra de Tecnologia 1º Semestre de 2025
+
+Local: Laboratório 12
+
+Datas: 05 e 06 de junho de 2025
+
+📄 Licença
+MIT License — sinta-se à vontade para utilizar, estudar e adaptar este projeto.
