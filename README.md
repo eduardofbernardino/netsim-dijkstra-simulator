@@ -21,7 +21,9 @@ Algoritmo de Dijkstra (SPF)
 
 
 ⚙️ Como Executar
+
 ✅ Rodando Localmente
+
 Abra o arquivo netsim_final.pkt no Cisco Packet Tracer 8.2+.
 
 Acesse cada roteador pela interface CLI e carregue as configurações correspondentes dos arquivos em configuracoes/.
@@ -31,6 +33,7 @@ Simule falhas manualmente desconectando links na topologia.
 Observe a convergência OSPF e consulte as tabelas de roteamento para análise dos resultados.
 
 📸 Demonstrações
+
 Topologia Inicial
 
 Topologia com Falha
