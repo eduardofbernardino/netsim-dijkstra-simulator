@@ -35,6 +35,9 @@ Algoritmo de Dijkstra (SPF)
 │   └── graficos_convergencia.png
 └── README.md
 
+![image](https://github.com/user-attachments/assets/8e61b166-ee6b-45ee-ac34-e1906917619d)
+
+
 ⚙️ Como Executar
 ✅ Rodando Localmente
 Abra o arquivo netsim_final.pkt no Cisco Packet Tracer 8.2+.
